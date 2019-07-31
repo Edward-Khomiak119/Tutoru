@@ -1,0 +1,26 @@
+<div class="logo">
+  <%= link_to root_path do %>
+    <img src="<%= asset_pack_path 'media/images/tutoru.svg' %>" alt="logo">
+  <% end %>
+</div>
+<nav>
+  <ul>
+    <li>
+      <%= link_to "Home", home_path, class: "#{controller_name == 'application' && action_name == 'home' ? 'active' : ''}" %>
+    </li>
+    <li>
+      <%= link_to "Current Requests", current_request_path, class: "#{(controller_name == 'application' && action_name == 'current_request') || (controller_name == 'help_requests' && action_name == 'new') ? 'active' : ''}" %>
+    </li>
+    <% if current_user %>
+      <li>
+        <%= link_to "Chats", chats_path(id: current_user.id), class: "#{(controller_name == 'chats') ? 'active' : ''}" %>
+      </li>
+      <li>
+        <%= link_to "Account", account_path(id: current_user.id), class: "#{(controller_name == 'application' && action_name == 'account') ? 'active' : ''}" %>
+      </li>
+    <% end %>
+    <li>
+      <a href="#">Settings</a>
+    </li>
+  </ul>
+</nav>

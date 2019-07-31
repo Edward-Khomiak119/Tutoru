@@ -1,0 +1,99 @@
+.show_request {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1110px;
+  margin: 0 auto;
+  z-index: 10;
+
+  .request_headline_img {
+    margin: 100px 0px 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container_user {
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    justify-content: flex-start;
+    width: 100%;
+
+    .avatar_user {
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      background-image: url("../images/woman_face.svg");
+    }
+
+    .user_info {
+      display: inline-block;
+      font-size: 38px;
+      font-weight: bold;
+      color: #279D59;
+      margin-left: 40px;
+
+      p {
+        font-size: 38px;
+        color: #279D59;
+        line-height: 42px;
+      }
+
+      span {
+        font-size: 20px;
+        color: #425479;
+      }
+    }
+  }
+
+  .help_request_data {
+    margin-bottom: 100px;
+
+    .field_input {
+      pointer-events: none;
+    }
+
+    .photo_title {
+      margin-bottom: 20px;
+    }
+
+    .price {
+      margin-top: 150px;
+
+      p {
+        font-size: 30px;
+        color: #29344C;
+        text-align: right;
+      }
+
+      span {
+        color: #279D59;
+      }
+    }
+  }
+
+  .actions {
+    width: 100%;
+    text-align: right;
+    margin: 0px 0px 40px 0px;
+
+    .common_button {
+      &:last-child {
+        margin-left: 60px;
+      }
+    }
+  }
+}
+
+.accept_tutor_button {
+  background: #FFF;
+  border-radius: 25px;
+  color: #FF4970;
+  border-color: #FF7E67;
+  border-style: solid;
+  font-weight: bold;
+  padding: 8px 34px;
+  font-size: 20px;
+}

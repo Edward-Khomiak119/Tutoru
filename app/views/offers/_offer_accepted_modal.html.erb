@@ -1,0 +1,14 @@
+<div class="accept-offer-modal-window">
+  <div class="modal-content">
+    <span class="close-window"></span>
+    <img class="modal-image" src="<%= asset_pack_path 'media/images/ok.svg' %>"/>
+    <h1 class="modal-header">The Offer is Accepted</h1>
+    <p class="modal-body">
+      <span class="name">
+        <%= @offer.tutor.first_name %> <%= @offer.tutor.last_name %>
+      </span>
+      will Get in Tounch with You as soon as Possible
+    </p>
+    <%= link_to 'OK', @chat, class: "common_button" %>
+  </div>
+</div>

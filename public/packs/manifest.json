@@ -1,0 +1,43 @@
+{
+  "application.js": "/packs/js/application-f85a4ed22b3baff47992.js",
+  "application.js.map": "/packs/js/application-f85a4ed22b3baff47992.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-f85a4ed22b3baff47992.js"
+      ],
+      "js.map": [
+        "/packs/js/application-f85a4ed22b3baff47992.js.map"
+      ]
+    },
+    "show_second_block": {
+      "js": [
+        "/packs/js/show_second_block-85a7dc131d1a0e2bcd44.js"
+      ],
+      "js.map": [
+        "/packs/js/show_second_block-85a7dc131d1a0e2bcd44.js.map"
+      ]
+    }
+  },
+  "media/images/Facebook.svg": "/packs/media/images/Facebook-7fedaac1e29f526c33317ce7373bee87.svg",
+  "media/images/Google.svg": "/packs/media/images/Google-828256d0d7818dd7d2b15a287a1514fc.svg",
+  "media/images/Skype.svg": "/packs/media/images/Skype-c5f39df7701d00cb7398681373fb8cb9.svg",
+  "media/images/WhatsApp.svg": "/packs/media/images/WhatsApp-228b80030cec9203652129fcaf33c110.svg",
+  "media/images/arrow_left.svg": "/packs/media/images/arrow_left-6272b6003cd0a86937e8482a399dbbf9.svg",
+  "media/images/avatar.svg": "/packs/media/images/avatar-579fdce0022d1c9495cd006ff9b0ccd6.svg",
+  "media/images/background_gradient_left.svg": "/packs/media/images/background_gradient_left-b853e4f07f1a837573558bc6bcda0ee1.svg",
+  "media/images/background_gradient_right.svg": "/packs/media/images/background_gradient_right-4724ced40d0d398c34fd60338a071798.svg",
+  "media/images/dance_people.svg": "/packs/media/images/dance_people-5d0a1a52a514f74051a5dcf0dff273b6.svg",
+  "media/images/icon_apple.svg": "/packs/media/images/icon_apple-72961b70460de0f2e6f126adfc3db0ef.svg",
+  "media/images/icon_books.svg": "/packs/media/images/icon_books-6cd8c120c2ef7412cfa9e5c38f53569c.svg",
+  "media/images/icon_bottle.svg": "/packs/media/images/icon_bottle-b7307b1387d5c4e671891d15335bbcc0.svg",
+  "media/images/landing_back.svg": "/packs/media/images/landing_back-2b8a74abeae59d7b7aed4642efe3dd7e.svg",
+  "media/images/ok.svg": "/packs/media/images/ok-94e11d9ef8ee531e08225c8ccbe5fabd.svg",
+  "media/images/photo.svg": "/packs/media/images/photo-4af0affba736a606a3d9884c1b4ad230.svg",
+  "media/images/question_mark.svg": "/packs/media/images/question_mark-8717871a8a96978810e837949541c840.svg",
+  "media/images/telegram.svg": "/packs/media/images/telegram-8d5747d5655ba04e29eaa5d691ab6d8d.svg",
+  "media/images/tutoru.svg": "/packs/media/images/tutoru-a9b99be5ee16110753556e459347d86f.svg",
+  "media/images/woman_face.svg": "/packs/media/images/woman_face-20db6ab544858bea2d30953dcc98ef22.svg",
+  "show_second_block.js": "/packs/js/show_second_block-85a7dc131d1a0e2bcd44.js",
+  "show_second_block.js.map": "/packs/js/show_second_block-85a7dc131d1a0e2bcd44.js.map"
+}

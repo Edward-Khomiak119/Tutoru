@@ -1,0 +1,47 @@
+.accept-offer-modal-window {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 ,0 ,0 ,0.7);
+  align-items: center;
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 724px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+
+    .modal-image {
+      margin-bottom: 90px;
+    }
+
+    .modal-header {
+      font-size: 80px;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+
+    .modal-body {
+      font-size: 38px;
+      font-weight: bold;
+      width: 64%;
+      text-align: center;
+      line-height: 57px;
+      margin-bottom: 30px;
+
+      .name {
+        color: #1C7C45;
+      }
+    }
+
+  }
+}

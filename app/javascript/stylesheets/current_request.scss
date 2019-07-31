@@ -1,0 +1,15 @@
+.current_request_page {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &--message {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    p {
+      margin: 10px 0 60px 0;
+    }
+  }
+}

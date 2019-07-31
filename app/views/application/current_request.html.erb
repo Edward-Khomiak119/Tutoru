@@ -1,0 +1,24 @@
+<% if current_user.student?%>
+  <main class="current_request_page">
+    <div class="current_request_page--message">
+      <% if !current_user.help_requests.where(active: true).any? %>
+        <section class="headlines"> 
+          <h1>Current request</h1> 
+        </section>
+        <p>Need help?</p>
+        <%= link_to "Find a Tutor", new_help_request_path, class: "common_button" %>
+      <% else %>
+        <section class="headlines"> 
+          <h1>Your requests</h1> 
+        </section>
+        <%= render 'help_requests/help_requests_list' %>
+        <%= link_to "Find a Tutor", new_help_request_path, class: "common_button" %>
+      <% end %>
+    <% else%>
+        <section class="headlines"> 
+          <h1>Current Requests</h1>
+        </section>
+      <%= render 'help_requests/help_requests_list' %>
+    <% end %>
+  </div>
+</main>

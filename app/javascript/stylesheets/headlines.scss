@@ -1,0 +1,20 @@
+.headlines {
+  margin: 100px auto;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  &--for_help {
+    margin: 0px;
+    text-align: left;
+  }
+
+  &--without_offers {
+    margin: 0 0 100px 0;
+  }
+  &--your_offers {
+    margin: 50px auto;
+  }
+}
